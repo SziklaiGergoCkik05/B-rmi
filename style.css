@@ -46,7 +46,7 @@ ul ul li{
 }
 
 ul>li:hover {
-    color: lightyellow;
+    color: black;
     text-shadow: 2px 2px 2px white;
     font-weight: bold;
     cursor: pointer;
@@ -60,5 +60,8 @@ ul>li {
     padding: 20px;
     font-size: 2em;
 }
+
+
+
 
 
