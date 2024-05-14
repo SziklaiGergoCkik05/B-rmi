@@ -15,10 +15,14 @@ br{
 }
 
 img{
-    align-items: center;
-    position: absolute;
-    size: 0ch;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
     
+}
+
+body{
+    background-color: yellowgreen;
 }
 
 
