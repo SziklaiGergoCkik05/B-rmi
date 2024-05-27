@@ -1,0 +1,60 @@
+/* Alapstílusok */
+body {
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.menu {
+    display: flex;
+    justify-content: space-around;
+    background: #333;
+}
+
+ul.menu > li {
+    position: relative;
+}
+
+ul.menu > li > label {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul.menu > li > input {
+    display: none;
+}
+
+/* Almenük alapértelmezés szerint rejtve */
+ul.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    z-index: 1000;
+}
+
+ul.submenu > li {
+    margin: 0;
+}
+
+ul.submenu > li > a {
+    text-decoration: none;
+    color: #000;
+    padding: 5px;
+    display: block;
+}
+
+/* Checkbox hack: bemenetre kattintáskor jelenik meg az almenü */
+ul.menu > li > input:checked ~ ul.submenu {
+    display: block;
+}
