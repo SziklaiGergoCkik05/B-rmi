@@ -1,0 +1,35 @@
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.large-text{
+    font-size: 1.5rem;
+}
+
+
+
+
+body {
+    background-image: url("Crow_Portrait.webp");
+    background-size: 75%; /* A kép mérete teljes legyen az ablakhoz */
+    background-position: center; /* A kép középre legyen pozícionálva */
+    background-attachment: fixed; /* A háttérkép fix marad, amikor a felhasználó görget */
+    background-repeat: no-repeat; /* Ne ismételje meg a háttérképet */
+    padding-top: 200px; /* Adhatsz egy felső padding-et, hogy a többi tartalom ne essen egybe a képpel */
+}
+
+
+
